@@ -99,6 +99,8 @@ npm run dev
 
 Open [http://localhost:5173/](http://localhost:5173/) in your browser to view the project.
 
+Check my portfolio on [https://ashutoshpant-myportfolio.netlify.app/](https://ashutoshpant-myportfolio.netlify.app/) in your browser to view my project.
+
 ## <a name="snippets">🕸️ Snippets</a>
 
 
