@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import DRIVE from "./DRIVE.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,10 +27,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./NewsHubApi.png";
-import jobit from "./MyPortfolio.png";
-import tripguide from "./tripguide.png";
+import YHILLS from "./YHILLS.png";
+import INTERNSHALA from "./INTERNSHALA.png";
+import NewsHubApi from "./NewsHubApi.png";
+import MyPortfolio from "./MyPortfolio.png";
+import GYMPHASE from "./GYMPHASE.png";
 
 export {
   logo,
@@ -39,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  DRIVE,
   menu,
   close,
   css,
@@ -58,7 +61,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  NewsHubApi,
+  YHILLS,
+  INTERNSHALA,
+  MyPortfolio,
+  GYMPHASE,
 };

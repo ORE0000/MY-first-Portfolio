@@ -19,11 +19,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  NewsHubApi,
+  YHILLS,
+  INTERNSHALA,
+  MyPortfolio,
+  GYMPHASE,
   threejs,
   github,
+  NewsHubApi,
 } from "../assets";
 
 export const navLinks = [
@@ -169,32 +172,76 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const projects2 = [
+    {
+      name: "INTERNSHIP | YHILLS -Learning Beyond Expectation  ",
+      description:
+        "Celebrating the completion of my 4-month Full-stack Web Development internship at YHills! 🌟",
+      tags: [
+        {
+          name: "MONGODB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EXPRESS JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "REACT",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NODE JS",
+          color: "green-text-gradient",
+        },
+      ],
+      image: YHILLS,
+      source_code_link: "https://drive.google.com/file/d/1dKnTCqLziDOGTRoZyuuSvmiFt5YExVin/view?usp=drivesdk",
+    },
+    {
+      name: "INTERNSHALA",
+      description:
+      "I’ve successfully completed the Core Java Certification with an A grade. 🌟 🚀",
+      tags: [
+        {
+          name: "Java",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "OOPS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Java AppDevelopment Modules",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: INTERNSHALA,
+      source_code_link: "https://drive.google.com/file/d/1d-45nhu_XGCNXegdPdIScu2l_lycwwa5/view?usp=drivesdk",
+    },
+    {
+      name: "REACT",
+      description:
+        "An Ongoing Certification",
+      tags: [
+        {
+          name: "",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "",
+          color: "green-text-gradient",
+        },
+        {
+          name: "",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: GYMPHASE,
+      source_code_link: "https://github.com/ORE0000",
+    },
+  ];
+
 
 const projects = [
   {
@@ -215,7 +262,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: NewsHubApi,
     source_code_link: "https://github.com/ORE0000/NEWSHUB-API",
   },
   {
@@ -236,30 +283,26 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: MyPortfolio,
     source_code_link: "https://github.com/ORE0000",
   },
   {
-    name: "Trip Guide",
+    name: "GYM PHASE",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a website to give training  plans &  to answer gym & health related queries..",
     tags: [
       {
-        name: "nextjs",
+        name: "REACT",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "API",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: GYMPHASE,
     source_code_link: "https://github.com/ORE0000",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects2, projects };
