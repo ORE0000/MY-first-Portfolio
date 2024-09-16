@@ -19,7 +19,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  NewsHubApi,
   YHILLS,
   INTERNSHALA,
   MyPortfolio,
