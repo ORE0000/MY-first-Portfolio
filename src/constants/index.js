@@ -18,11 +18,11 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
+  NewsHub,
   YHILLS,
   INTERNSHALA,
   MyPortfolio,
-  GYMPHASE,
+  SkyScope,
   threejs,
   github,
   NewsHubApi,
@@ -75,10 +75,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -87,10 +87,10 @@ const technologies = [
     name: "GITHUB",
     icon: github,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -103,10 +103,10 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -119,41 +119,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: "TRAVEL PACKAGE USING JAVA",
+    title: "SkyScope (Weather Application)",
     company_name: "Academic",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "April 2022 - Dec 2022",
+    date: "October 2024 - Dec 2024",
     points: [
-      "Developed a java  application that provides traveling plans to registered users. ",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic weather application using ReactJS, TypeScript, and TanStack Query, showcasing advanced front-end development capabilities. ",
+      "Integrated the OpenWeather API to deliver real-time weather updates, allowing users to view current weather conditions and hourly forecasts for any location globally.",
+      "Implemented a responsive city search feature with caching mechanisms, enabling quick access to previous searches and minimizing API calls.",
+      "Designed and optimized a visually appealing UI with light and dark mode toggles, enhancing accessibility and user experience across devices.",
+      "Deployed the project on Netlify, securing API keys with environment variables for enhanced application security.",
+      "Utilized state management and asynchronous data fetching to handle complex interactions, ensuring seamless performance.",
+      "Achieved a highly responsive and engaging app, increasing usability for both mobile and desktop platforms..",
     ],
   },
   {
-    title: "GYM PHASE USING PYTHON,HTML,CSS",
+    title: "My Portfolio Website",
     company_name: "Academic",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - July 2023",
+    date: "July 2024 - August 2024",
     points: [
-      "Developed a website to give training  plans & chatbot to answer gym & health related queries..",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "NEWSHUB API USING   HTML ,CSS, JAVASCRIPT",
-    company_name: "Academic",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2024 ",
-    points: [
-      "Developed a dynamic news website using HTML,CSS,JavaScript, integrating APIs to deliver real-time news updates .",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participate actively in code reviews.",
+      "Built a professional portfolio website using Next.js, Three.js, Framer Motion, and Tailwind CSS to showcase technical expertise and project highlights.",
+      "Integrated interactive 3D elements and animations, such as a GitHub-style globe and card hover effects, creating a captivating user experience.",
+      "Featured detailed sections on projects, work experience, and testimonials, effectively presenting skills and accomplishments.",
+      "Optimized the website for responsive design, ensuring seamless functionality across mobile, tablet, and desktop devices.",
+      "Demonstrated proficiency in cutting-edge technologies and delivered a visually engaging and professional digital presence.",
     ],
   },
   {
@@ -167,6 +159,20 @@ const experiences = [
       "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "NEWSHUB API USING   HTML ,CSS, JAVASCRIPT",
+    company_name: "Academic",
+    icon: NewsHub,
+    iconBg: "#383E56",
+    date: "Jan 2024 ",
+    points: [
+      "Built a real-time news aggregation app using HTML, CSS, and JavaScript integrated with the NewsAPI.",
+      "Designed a clean, responsive interface for news categories and detailed article displays, including images and publication dates.",
+      "Added a search functionality for custom queries, enhancing user engagement.",
+      "Ensured mobile-first design principles for seamless usability across all devices.",
+      "Leveraged API integration to deliver up-to-date news dynamically.",
     ],
   },
 ];
@@ -236,7 +242,7 @@ const projects2 = [
           color: "pink-text-gradient",
         },
       ],
-      image: GYMPHASE,
+      image: SkyScope,
       source_code_link: "https://github.com/ORE0000",
     },
   ];
@@ -244,25 +250,29 @@ const projects2 = [
 
 const projects = [
   {
-    name: "NEWSHUB API",
+    name: "SkyScope",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Developed a dynamic weather application using ReactJS, TypeScript, and TanStack Query, showcasing advanced front-end development capabilities.🚀",
     tags: [
       {
-        name: "HTML",
-        color: "orange-text-gradient",
+        "name": "ReactJS",
+        "color": "blue-text-gradient"
       },
       {
-        name: "CSS",
-        color: "blue-text-gradient",
+        "name": "TypeScript",
+        "color": "yellow-text-gradient"
       },
       {
-        name: "JavaScript",
-        color: "pink-text-gradient",
+        "name": "API Integration",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "TanStack Query",
+        "color": "purple-text-gradient"
       },
     ],
-    image: NewsHubApi,
-    source_code_link: "https://github.com/ORE0000/NEWSHUB-API",
+    image: SkyScope,
+    source_code_link: "https://github.com/ORE0000/SkyScope",
   },
   {
     name: "My Portfolio",
@@ -283,24 +293,28 @@ const projects = [
       },
     ],
     image: MyPortfolio,
-    source_code_link: "https://github.com/ORE0000",
+    source_code_link: "https://github.com/ORE0000/MY-first-Portfolio",
   },
   {
-    name: "GYM PHASE",
+    name: "NEWSHUB API",
     description:
-      "Developed a website to give training  plans &  to answer gym & health related queries..",
+      "Built a real-time news aggregation app using HTML, CSS, and JavaScript integrated with the NewsAPI..",
     tags: [
       {
-        name: "REACT",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "API",
-        color: "green-text-gradient",
+        name: "JavaScript",
+        color: "pink-text-gradient",
       },
     ],
-    image: GYMPHASE,
-    source_code_link: "https://github.com/ORE0000",
+    image: NewsHubApi,
+    source_code_link: "https://github.com/ORE0000/NEWSHUB-API",
   },
 ];
 

@@ -24,14 +24,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import NewsHub from "./company/NewsHub.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tesla from "./company/tesla.svg";
 import YHILLS from "./YHILLS.png";
 import INTERNSHALA from "./INTERNSHALA.png";
 import NewsHubApi from "./NewsHubApi.png";
 import MyPortfolio from "./MyPortfolio.png";
-import GYMPHASE from "./GYMPHASE.png";
+import SkyScope from "./SkyScope.png";
 
 export {
   logo,
@@ -58,12 +58,12 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  NewsHub,
   starbucks,
   tesla,
   NewsHubApi,
   YHILLS,
   INTERNSHALA,
   MyPortfolio,
-  GYMPHASE,
+  SkyScope,
 };
